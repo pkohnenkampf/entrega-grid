@@ -1,0 +1,28 @@
+header {
+    grid-area: header;
+    background-color: black;
+}
+
+menu {
+    grid-area: menu;
+    background-color: blue;
+}
+
+main {
+    grid-area: main;
+    background-color: aqua;
+}
+
+footer {
+    grid-area: footer;
+    background-color: brown;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer";
+    gap: 10px;
+}
